@@ -1,0 +1,120 @@
+<div class="container" style="font-family:Arial, Helvetica, sans-serif; color:#1f2937;">
+    <section class="row flex-column p-4 bg-light shadow" style="margin-bottom:50px; border-radius:20px;">
+        <div class="row flex-column mb-5 text-center">
+            <h3 style="color:#0E2D59; font-size:28px; font-family:system-ui; font-weight:700;">Merge Duplicate Products</h3>
+            <div class="col-lg-9 col-11 mx-auto mt-3" style="font-size:16px; color:#555;">
+                Merge duplicate products into one - stock quantities are combined, and every sale, purchase, invoice, bill of material, and stock move follows the product you keep.
+            </div>
+        </div>
+
+        <div class="row justify-content-center mb-5">
+            <div class="col-md-10 col-11 text-center">
+                <div style="width:fit-content; margin:0 auto 14px; padding:4px 12px; color:#ffffff; background:#16a34a; border-radius:20px; font-size:12px; font-weight:700;">
+                    Inventory Data Cleanup
+                </div>
+            </div>
+        </div>
+
+        <div class="row no-gutters justify-content-center mb-4 px-3">
+            <div class="col-lg-4 col-md-6 col-12 p-2">
+                <div class="h-100 p-4 text-center bg-white shadow-sm" style="border-radius:8px;">
+                    <h4 style="color:#0E2D59; font-size:20px; font-weight:600;">One Click From The List</h4>
+                    <p style="font-size:14px; color:#555;">Select the duplicates in Products or Product Variants, then Actions > Merge Products. No separate screen to configure.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 p-2">
+                <div class="h-100 p-4 text-center bg-white shadow-sm" style="border-radius:8px;">
+                    <h4 style="color:#0E2D59; font-size:20px; font-weight:600;">Stock Is Combined, Not Lost</h4>
+                    <p style="font-size:14px; color:#555;">On-hand quantities are added onto the kept product per location, lot, package, and owner using Odoo's own stock engine.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 p-2">
+                <div class="h-100 p-4 text-center bg-white shadow-sm" style="border-radius:8px;">
+                    <h4 style="color:#0E2D59; font-size:20px; font-weight:600;">Every Document Follows</h4>
+                    <p style="font-size:14px; color:#555;">Sales, purchases, invoices, BOMs, and stock moves that pointed at a duplicate are reassigned to the kept product automatically.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row no-gutters justify-content-center mb-4 px-3">
+            <div class="col-lg-4 col-md-6 col-12 p-2">
+                <div class="h-100 p-4 text-center bg-white shadow-sm" style="border-radius:8px;">
+                    <h4 style="color:#0E2D59; font-size:20px; font-weight:600;">Smart Default Target</h4>
+                    <p style="font-size:14px; color:#555;">The oldest record - almost always the original product - is preselected as the one to keep. You can change it anytime.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 p-2">
+                <div class="h-100 p-4 text-center bg-white shadow-sm" style="border-radius:8px;">
+                    <h4 style="color:#0E2D59; font-size:20px; font-weight:600;">Built-In Safety Guards</h4>
+                    <p style="font-size:14px; color:#555;">Merging products with different types or tracking modes (lot/serial) is blocked, and every merge asks for confirmation first.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 p-2">
+                <div class="h-100 p-4 text-center bg-white shadow-sm" style="border-radius:8px;">
+                    <h4 style="color:#0E2D59; font-size:20px; font-weight:600;">Full Audit Trail</h4>
+                    <p style="font-size:14px; color:#555;">The kept product's chatter records exactly which duplicates were merged into it, by whom, and when.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="row flex-column p-4 bg-light shadow" style="margin-bottom:50px; border-radius:20px;">
+        <div class="row flex-column mb-4 text-center">
+            <h2 class="font-weight-bold mb-2" style="font-size:36px; color:#0E2D59;">See It In Action</h2>
+            <span style="font-size:16px; color:#555;">Three duplicate cabinets - 500, 7, and 10 on hand - merged into one product with 517.</span>
+        </div>
+
+        <div class="row justify-content-center mb-4">
+            <div class="col-lg-11 shadow-sm bg-white p-3 text-center" style="border-radius:12px;">
+                <img class="img-fluid w-100" style="border-radius:8px;" src="ss-01-select-and-merge-action.png" alt="Selecting duplicate products and opening Actions > Merge Products"/>
+                <h4 class="mt-3 mb-1" style="color:#0E2D59; font-size:20px; font-weight:700;">1. Select the duplicates, hit Merge Products</h4>
+                <p style="font-size:14px; color:#555; margin-bottom:0;">Three "Large Cabinet" records with separate stock (7, 500, 10). Tick them and choose Merge Products straight from the Actions menu.</p>
+            </div>
+        </div>
+
+        <div class="row justify-content-center mb-4">
+            <div class="col-md-6 col-12 p-2">
+                <div class="h-100 shadow-sm bg-white p-3 text-center" style="border-radius:12px;">
+                    <img class="img-fluid w-100" style="border-radius:8px;" src="ss-02-merge-wizard.png" alt="Merge wizard with From Products and To Product pre-filled"/>
+                    <h4 class="mt-3 mb-1" style="color:#0E2D59; font-size:18px; font-weight:700;">2. Wizard comes pre-filled</h4>
+                    <p style="font-size:13px; color:#555; margin-bottom:0;">All selected duplicates land in From Products, and the oldest record is preselected as the product to keep.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-12 p-2">
+                <div class="h-100 shadow-sm bg-white p-3 text-center" style="border-radius:12px;">
+                    <img class="img-fluid w-100" style="border-radius:8px;" src="ss-03-confirmation.png" alt="Confirmation dialog before merging"/>
+                    <h4 class="mt-3 mb-1" style="color:#0E2D59; font-size:18px; font-weight:700;">3. Nothing happens without confirmation</h4>
+                    <p style="font-size:13px; color:#555; margin-bottom:0;">A final confirmation reminds you the merge cannot be undone before anything is touched.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-12 p-2">
+                <div class="h-100 shadow-sm bg-white p-3 text-center" style="border-radius:12px;">
+                    <img class="img-fluid w-100" style="border-radius:8px;" src="ss-04-after-merge.png" alt="Product list after merge showing one product with combined stock"/>
+                    <h4 class="mt-3 mb-1" style="color:#0E2D59; font-size:18px; font-weight:700;">4. One product, combined stock</h4>
+                    <p style="font-size:13px; color:#555; margin-bottom:0;">After the merge, a single Large Cabinet remains with 517 on hand - 500 + 7 + 10, nothing lost.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-12 p-2">
+                <div class="h-100 shadow-sm bg-white p-3 text-center" style="border-radius:12px;">
+                    <img class="img-fluid w-100" style="border-radius:8px;" src="ss-05-chatter-log.png" alt="Chatter on the kept product logging the merge"/>
+                    <h4 class="mt-3 mb-1" style="color:#0E2D59; font-size:18px; font-weight:700;">5. Audit trail in the chatter</h4>
+                    <p style="font-size:13px; color:#555; margin-bottom:0;">The kept product logs "Merged with: ..." with user and timestamp, so the cleanup is always traceable.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-12 p-2">
+                <div class="h-100 shadow-sm bg-white p-3 text-center" style="border-radius:12px;">
+                    <img class="img-fluid w-100" style="border-radius:8px;" src="ss-06-guard-tracking.png" alt="Validation error when merging products with different tracking"/>
+                    <h4 class="mt-3 mb-1" style="color:#0E2D59; font-size:18px; font-weight:700;">6. Tracking mismatch is blocked</h4>
+                    <p style="font-size:13px; color:#555; margin-bottom:0;">Serial-tracked and untracked products cannot be merged together - lot and serial data stays consistent.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-12 p-2">
+                <div class="h-100 shadow-sm bg-white p-3 text-center" style="border-radius:12px;">
+                    <img class="img-fluid w-100" style="border-radius:8px;" src="ss-07-guard-min-two.png" alt="Validation error when selecting fewer than two products"/>
+                    <h4 class="mt-3 mb-1" style="color:#0E2D59; font-size:18px; font-weight:700;">7. Clear message on bad input</h4>
+                    <p style="font-size:13px; color:#555; margin-bottom:0;">Selecting fewer than two products shows a friendly error instead of doing nothing - no guessing.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
