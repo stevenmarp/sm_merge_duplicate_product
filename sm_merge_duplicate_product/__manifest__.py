@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Merge Duplicate Products',
-    'version': '18.0.1.0.0',
+    'version': '19.0.1.0.0',
     'category': 'Inventory/Inventory',
     'summary': 'Merge duplicate products into one, keeping stock, orders, and history intact',
     'description': """
